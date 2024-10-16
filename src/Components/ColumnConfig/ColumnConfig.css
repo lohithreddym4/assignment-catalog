@@ -1,0 +1,45 @@
+.column-config {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .column-config input, .column-config select {
+    padding: 8px;
+    width: 200px;
+    margin-right: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .column-config button {
+    background-color: #007BFF;
+    color: white;
+  }
+  
+  .column-config button:hover {
+    background-color: #0069D9;
+  }
+  
+  .column-list {
+    margin-top: 15px;
+    list-style-type: none;
+  }
+  
+  .column-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .column-list button {
+    background-color: #DC3545;
+  }
+  
+  .column-list button:hover {
+    background-color: #C82333;
+  }
+  
