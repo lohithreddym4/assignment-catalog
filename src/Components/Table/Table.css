@@ -38,35 +38,6 @@ table {
   }
   
   
-  @media (max-width: 768px) {
-    table, th, td {
-      display: block;
-      width: 100%;
-    }
-  
-    th {
-      position: absolute;
-      top: -9999px;
-      left: -9999px;
-    }
-  
-    td {
-      border: none;
-      position: relative;
-      padding-left: 50%;
-      text-align: left;
-      display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-  
-    td:before {
-      position: absolute;
-      left: 10px;
-      white-space: nowrap;
-      font-weight: bold;
-    }
-  }
   .space-bet{
     justify-content: space-between !important;
   }

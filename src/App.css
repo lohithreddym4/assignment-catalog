@@ -47,21 +47,3 @@ button:disabled {
   justify-content: center;
   align-items: center;
 }
-@media (max-width: 768px) {
-  table {
-    font-size: 12px;
-  }
-
-  th, td {
-    padding: 8px 10px;
-  }
-
-  .modal {
-    width: 90%;
-  }
-
-  .column-config input {
-    width: 100%;
-    margin-bottom: 10px;
-  }
-}
